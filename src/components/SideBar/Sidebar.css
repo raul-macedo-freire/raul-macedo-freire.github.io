@@ -1,0 +1,309 @@
+.a{
+  background-color: #1d1b4740;
+  height: 50px;
+  width: 300px;
+}
+
+.text-1 {
+  height: 50px;
+  left: 62px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+.bm-menu {
+    padding: 2.0em 1.0em 0;
+    font-size: 1.15em;
+    align-items: flex-start;
+    background-color: 
+  #1d1b47e6;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+.bm-item-list {
+    color:#1d1b47e6 ;
+  }
+  
+  /* Individual item */
+.bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  
+
+  /* FIGMA STYLES */
+
+.rectangle-11 {
+    background-color: var(--white);
+    height: 7px;
+    width: 41px;
+  }
+  
+.rectangle-1 {
+    background-color: var(--white);
+    height: 7px;
+    margin-top: 5px;
+    width: 41px;
+  }
+  
+
+  
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 57px;
+    min-width: 277px;
+    position: relative;
+  }
+  
+  
+.overlap-group7-item {
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  
+.overlap-group1 {
+    height: 50px;
+    margin-top: 43px;
+    position: relative;
+    width: 302px;
+  }
+  
+.rectangle-10,
+.label1,
+.rectangle-10-1,
+.rectangle-10-2,
+.rectangle-10-3,
+.rectangle-10-4 {
+    background-color: var(--bunting);
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+  }
+  
+.perfil {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+  }
+  
+.text-1 {
+    height: 50px;
+    left: 62px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+.overlap-group-1 {
+    align-self: center;
+    height: 18px;
+    margin-left: 18.0px;
+    position: relative;
+    width: 158px;
+  }
+  
+.adjust {
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 15px;
+  }
+  
+.swich-dark-mode {
+    color: var(--celeste);
+    font-family: var(--font-family-rubik-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 158px;
+  }
+  
+.overlap-group8 {
+    height: 50px;
+    margin-top: 41px;
+    position: relative;
+    width: 302px;
+  }
+  
+.informaes-gerais,
+.engenharia-qumica,
+.desenvolvimento,
+.experincias,
+.contato {
+    height: 50px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 302px;
+  }
+  
+.overlap-group {
+    height: 50px;
+    position: relative;
+    width: 302px;
+  }
+  
+.overlap-group6 {
+    height: 91px;
+    position: relative;
+    width: 302px;
+  }
+  
+.overlap-group4 {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 302px;
+  }
+  
+  .overlap-group5 {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 41px;
+    width: 302px;
+  }
+  
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+/* TOPICOS */
+
+
+.label-topic{
+    padding-left: 14px;
+    color: #D0D0D0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    flex-direction: column;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-topic{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.menu{
+  background-color: #1d1b47e6;
+}
+
+.label-image{
+  height: 25px;
+  width: 25px;
+}
+
+.profile{
+  height: 50px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.profile-image{
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar-social-media{
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+  position: absolute  ;
+  bottom: 10px;
+  padding-left: 35px;
+}
+
+.social-media-icon{
+  margin: 15px;
+  cursor: pointer;
+  
+}
