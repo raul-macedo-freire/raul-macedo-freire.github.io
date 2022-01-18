@@ -9,5 +9,4 @@ import {Title,Description} from './components/Content/Content'
 function App() {
   return (Background())}
 
-
 export default App;
