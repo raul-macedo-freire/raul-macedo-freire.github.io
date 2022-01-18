@@ -30,12 +30,12 @@ export default function Background(content,DarkModeOn=true){
     return (
         <main className='body'>
             <SideBar/>
-            <div className='line' style={{top:30}}>
+            <div className='line' style={{top:10}}>
                 {line}
             </div>
-            <div>
+            <main className='content'>
                     {content}
-            </div>
+            </main>
             <div className='line' style = {{bottom:0}}>
                 {line}
             </div>

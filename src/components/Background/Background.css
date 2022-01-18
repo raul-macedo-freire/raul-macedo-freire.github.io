@@ -23,3 +23,9 @@
     align-items: center;
 
 }
+
+.content{
+    display: block;
+    margin-top: 220px;
+    margin-left: 200px;
+}
